@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		270F96BA1C284A5700E51E18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 270F96B91C284A5700E51E18 /* main.m */; };
+		270F96BD1C284A5700E51E18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 270F96BC1C284A5700E51E18 /* AppDelegate.m */; };
+		270F96C01C284A5800E51E18 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 270F96BF1C284A5800E51E18 /* GameScene.m */; };
+		270F96C21C284A5800E51E18 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 270F96C11C284A5800E51E18 /* GameScene.sks */; };
+		270F96C51C284A5800E51E18 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 270F96C41C284A5800E51E18 /* GameViewController.m */; };
+		270F96C81C284A5800E51E18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 270F96C61C284A5800E51E18 /* Main.storyboard */; };
+		270F96CA1C284A5800E51E18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 270F96C91C284A5800E51E18 /* Assets.xcassets */; };
+		270F96CD1C284A5800E51E18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 270F96CB1C284A5800E51E18 /* LaunchScreen.storyboard */; };
+		270F96D61C2867B100E51E18 /* WaveObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 270F96D51C2867B100E51E18 /* WaveObject.m */; };
+		270F96D91C287B8E00E51E18 /* WaveNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 270F96D81C287B8E00E51E18 /* WaveNode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		270F96B51C284A5700E51E18 /* Waves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Waves.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		270F96B91C284A5700E51E18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		270F96BB1C284A5700E51E18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		270F96BC1C284A5700E51E18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		270F96BE1C284A5800E51E18 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		270F96BF1C284A5800E51E18 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		270F96C11C284A5800E51E18 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		270F96C31C284A5800E51E18 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		270F96C41C284A5800E51E18 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		270F96C71C284A5800E51E18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		270F96C91C284A5800E51E18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		270F96CC1C284A5800E51E18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		270F96CE1C284A5800E51E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		270F96D41C2867B000E51E18 /* WaveObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveObject.h; sourceTree = "<group>"; };
+		270F96D51C2867B100E51E18 /* WaveObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveObject.m; sourceTree = "<group>"; };
+		270F96D71C287B8E00E51E18 /* WaveNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveNode.h; sourceTree = "<group>"; };
+		270F96D81C287B8E00E51E18 /* WaveNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveNode.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		270F96B21C284A5700E51E18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		270F96AC1C284A5700E51E18 = {
+			isa = PBXGroup;
+			children = (
+				270F96B71C284A5700E51E18 /* Waves */,
+				270F96B61C284A5700E51E18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		270F96B61C284A5700E51E18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				270F96B51C284A5700E51E18 /* Waves.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		270F96B71C284A5700E51E18 /* Waves */ = {
+			isa = PBXGroup;
+			children = (
+				270F96BB1C284A5700E51E18 /* AppDelegate.h */,
+				270F96BC1C284A5700E51E18 /* AppDelegate.m */,
+				270F96BE1C284A5800E51E18 /* GameScene.h */,
+				270F96BF1C284A5800E51E18 /* GameScene.m */,
+				270F96C11C284A5800E51E18 /* GameScene.sks */,
+				270F96C31C284A5800E51E18 /* GameViewController.h */,
+				270F96C41C284A5800E51E18 /* GameViewController.m */,
+				270F96C61C284A5800E51E18 /* Main.storyboard */,
+				270F96C91C284A5800E51E18 /* Assets.xcassets */,
+				270F96CB1C284A5800E51E18 /* LaunchScreen.storyboard */,
+				270F96CE1C284A5800E51E18 /* Info.plist */,
+				270F96B81C284A5700E51E18 /* Supporting Files */,
+				270F96D41C2867B000E51E18 /* WaveObject.h */,
+				270F96D51C2867B100E51E18 /* WaveObject.m */,
+				270F96D71C287B8E00E51E18 /* WaveNode.h */,
+				270F96D81C287B8E00E51E18 /* WaveNode.m */,
+			);
+			path = Waves;
+			sourceTree = "<group>";
+		};
+		270F96B81C284A5700E51E18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				270F96B91C284A5700E51E18 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		270F96B41C284A5700E51E18 /* Waves */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 270F96D11C284A5800E51E18 /* Build configuration list for PBXNativeTarget "Waves" */;
+			buildPhases = (
+				270F96B11C284A5700E51E18 /* Sources */,
+				270F96B21C284A5700E51E18 /* Frameworks */,
+				270F96B31C284A5700E51E18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Waves;
+			productName = Waves;
+			productReference = 270F96B51C284A5700E51E18 /* Waves.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		270F96AD1C284A5700E51E18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Sam Keene";
+				TargetAttributes = {
+					270F96B41C284A5700E51E18 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 270F96B01C284A5700E51E18 /* Build configuration list for PBXProject "Waves" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 270F96AC1C284A5700E51E18;
+			productRefGroup = 270F96B61C284A5700E51E18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				270F96B41C284A5700E51E18 /* Waves */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		270F96B31C284A5700E51E18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				270F96C21C284A5800E51E18 /* GameScene.sks in Resources */,
+				270F96CD1C284A5800E51E18 /* LaunchScreen.storyboard in Resources */,
+				270F96CA1C284A5800E51E18 /* Assets.xcassets in Resources */,
+				270F96C81C284A5800E51E18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		270F96B11C284A5700E51E18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				270F96C51C284A5800E51E18 /* GameViewController.m in Sources */,
+				270F96BD1C284A5700E51E18 /* AppDelegate.m in Sources */,
+				270F96D91C287B8E00E51E18 /* WaveNode.m in Sources */,
+				270F96D61C2867B100E51E18 /* WaveObject.m in Sources */,
+				270F96C01C284A5800E51E18 /* GameScene.m in Sources */,
+				270F96BA1C284A5700E51E18 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		270F96C61C284A5800E51E18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				270F96C71C284A5800E51E18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		270F96CB1C284A5800E51E18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				270F96CC1C284A5800E51E18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		270F96CF1C284A5800E51E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		270F96D01C284A5800E51E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		270F96D21C284A5800E51E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Waves/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Waves";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		270F96D31C284A5800E51E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Waves/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Waves";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		270F96B01C284A5700E51E18 /* Build configuration list for PBXProject "Waves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				270F96CF1C284A5800E51E18 /* Debug */,
+				270F96D01C284A5800E51E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		270F96D11C284A5800E51E18 /* Build configuration list for PBXNativeTarget "Waves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				270F96D21C284A5800E51E18 /* Debug */,
+				270F96D31C284A5800E51E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 270F96AD1C284A5700E51E18 /* Project object */;
+}
